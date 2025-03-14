@@ -1,0 +1,7 @@
+# Our Environment:
+
+The application is run by "run.sh" and built on docker containers.
+
+# Important:
+
+You should keep code that is mostly unrelated to the additions or modifications as intact as possible.
