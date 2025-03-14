@@ -1,5 +1,9 @@
 # SVG Preview
 
+## Overview
+
+![alt text](image.png)
+
 ## Description
 
 A simple web application that allows users to paste or edit SVG code and see a live preview. The application is designed to be as simple as possible and runs in a Docker container to avoid modifying the local environment.
