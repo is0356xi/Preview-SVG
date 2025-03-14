@@ -6,3 +6,7 @@ svgInput.addEventListener('input', function() {
     const svgDataUrl = 'data:image/svg+xml;utf8,' + encodeURIComponent(svgCode);
     svgPreview.src = svgDataUrl;
 });
+
+window.onload = function() {
+  svgInput.dispatchEvent(new Event('input'));
+};
